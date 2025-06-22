@@ -1,17 +1,24 @@
-# 3D Product Viewer (Basic Mesh Edition)
+# 3D Product Viewer
 
-An interactive 3D product viewer built with Three.js. Users can explore a product made from basic shapes, with mouse controls and automatic camera rotation.
+An interactive 3D viewer built with **Three.js**, featuring a stylized **bedside lamp** created using basic shapes. Includes lighting, camera controls, and interactive click effects.
 
----
+##  Features
 
-## Features
+- **3D Model**: A modern bedside lamp made from cylinders (base/stand), a cone (shade), and a glowing sphere (bulb).
+- **Lighting**: Ambient and directional lighting, plus a glowing bulb with a point light.
+- **Camera**: Auto-rotates around the model, with OrbitControls for user interaction.
+- **Interaction**: Click parts to change color and scale briefly
+- **Responsive Scene**: Automatically resizes and renders smoothly across devices.
 
-- **Scene Setup:** Responsive Three.js scene with PerspectiveCamera and OrbitControls.
-- **3D Product:** Composed of basic geometries (boxes, cylinders, spheres) with realistic materials.
-- **Lighting:** Ambient and directional lights for depth and shadows.
-- **Interaction:** Raycasting detects clicks on parts, triggering color/scale changes and showing part names.
-- **Camera Animation:** Auto-rotating camera around the product with user interaction override.
-- **Animation Loop:** Smooth rendering and optional product animations.
+##  Getting Started
 
----
+1. Clone or download the repo.
+2. Open `index.html` in your browser.
+3. Use your mouse to rotate, zoom, and interact with the bedside lamp.
 
+## 🛠️ Tech Stack
+
+- [Three.js](https://threejs.org/)
+- JavaScript (ES6)
+
+ 
